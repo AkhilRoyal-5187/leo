@@ -54,7 +54,14 @@ export default function CardPage() {
 
   return (
     <AppLayout>
-      <div className="p-4 md:p-6 space-y-6">
+        <div className="p-52 text-4xl text-center ">
+      <iframe className="ml-44 " src="https://lottie.host/embed/3468bad0-05ac-4fda-aaa7-cee86757c9c4/7o7ncaxPRf.lottie">
+      </iframe>
+        <div className="mt-[-40px]">
+          Coming Soon...
+        </div>
+        </div>
+      {/* <div className="p-4 md:p-6 space-y-6">
         <div>
           <h1 className="text-2xl font-bold">LEO Card</h1>
           <p className="text-muted-foreground">Your digital student card and wallet</p>
@@ -320,7 +327,9 @@ export default function CardPage() {
             </Card>
           </div>
         </div>
-      </div>
+      </div> */}
     </AppLayout>
+
+
   )
 }
